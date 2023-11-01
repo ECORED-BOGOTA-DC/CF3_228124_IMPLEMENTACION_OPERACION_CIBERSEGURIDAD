@@ -1,19 +1,11 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo:
+      'Contexto, cronograma y diseño de estrategias de ciberseguridad',
+    descripcionCurso:
+      'Mediante el desarrollo del presente componente el aprendiz estará en capacidad de comprender cómo realizar la implementación de una estrategia de seguridad a partir de procesos de planificación, que le permita establecer las etapas y controles de seguridad y mejorar los niveles de seguridad de la organización.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
-    imagenesDecorativasBanner: [
-      {
-        clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
-      },
-      {
-        clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
-      },
-    ],
   },
   menuPrincipal: {
     menu: [
@@ -30,29 +22,98 @@ export default {
       },
       {
         nombreRuta: 'tema1',
+        icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Determinar el contexto',
         desarrolloContenidos: true,
         subMenu: [
           {
+            icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Algunos conceptos y estándar orientador',
             hash: 't_1_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.2',
+            titulo: 'Objetivos de control y su estructura',
+            hash: 't_1_2',
           },
         ],
       },
-
       {
         nombreRuta: 'tema2',
+        icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Dominios de control',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.1',
+            titulo: 'Objetivos de control para la seguridad de la información',
+            hash: 't_2_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.2',
+            titulo: 'Objetivos de control para el factor humano',
+            hash: 't_2_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.3',
+            titulo: 'Objetivos de control para la gestión de activos',
+            hash: 't_2_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.4',
+            titulo: 'Controles de accesos',
+            hash: 't_2_4',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.5',
+            titulo: 'Controles criptográficos',
+            hash: 't_2_5',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.6',
+            titulo: 'Controles y objetivos para el aseguramiento físico',
+            hash: 't_2_6',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
+        icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Alcance de los controles de seguridad',
         desarrolloContenidos: true,
+        subMenu: [],
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo: 'Técnicas de planificación',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.1',
+            titulo: 'La planificación y los objetivos',
+            hash: 't_4_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.2',
+            titulo: 'Características de validación',
+            hash: 't_4_2',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -86,7 +147,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/prueba.pdf',
+        download: 'downloads/material.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -103,31 +164,75 @@ export default {
   complementario: [
     {
       tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
-    },
-    {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      referencia:
+        'ISO / IEC JTC 1 / SC 27 Seguridad de la información, ciberseguridad y protección de la privacidad. (2013). ISO / IEC 27001: 2013.',
+      tipo: 'Norma técnica',
+      link: 'https://www.iso.org/standard/54534.html',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Amenaza',
+      significado:
+        'Es cualquier debilidad presente y que puede ser aprovechada para afectar un sistema de información.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Confidencialidad',
+      significado:
+        'Principio con el cual, la información solo es accedida por la persona o sistema autorizado para su acceso.',
+    },
+    {
+      termino: 'Control',
+      significado:
+        'Son acciones que se deben implementar bajo un proceso o procedimiento, para garantizar los objetivos de seguridad de la organización.',
+    },
+    {
+      termino: 'Disponibilidad',
+      significado:
+        'Principio que supone que un activo de información se mantenga disponible sin sufrir ninguna degradación o alteración.',
+    },
+    {
+      termino: 'Integridad',
+      significado:
+        'Principio que sugiere que la información se mantenga intacta y sin alteraciones posterior a sufrir un incidente.',
+    },
+    {
+      termino: 'Riesgo',
+      significado:
+        'Probabilidad que suceda un incidente aprovechándose de una amenaza existente afectando los principios de la seguridad de la información.',
+    },
+    {
+      termino: 'Vulnerabilidad',
+      significado:
+        'Falencia en un sistema que puede ser aprovechada para generar un incidente de seguridad.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Instituto Internacional de Estudios en Seguridad Global (2020). Factor humano y ciberseguridad, un riesgo en crecimiento. INISEG. ',
+      link:
+        ' https://www.iniseg.es/blog/ciberseguridad/factor-humano-y-ciberseguridad/',
+    },
+    {
+      referencia:
+        'Instituto Nacional de Tecnologías de la Comunicación (2009). Implantación de un SGSI en la empresa. ',
+      link:
+        ' https://www.incibe.es/extfrontinteco/img/File/intecocert/sgsi/img/Guia_apoyo_SGSI.pdf',
+    },
+    {
+      referencia:
+        'ISO (2021). Dominios de seguridad y controles. (ISO 27000). ',
+      link: ' https://www.iso27000.es/iso27002.html',
+    },
+    {
+      referencia: 'ISO (2021). Planificación en ISO. (ISO 27001). ',
+      link: ' https://normaiso27001.es/planificacion-en-iso-27001/',
+    },
+    {
+      referencia:
+        'Organización Internacional de Normalización (ISO 2021). FASE 6 Implementando un SGSI. (ISO 27001). ',
+      link: ' https://normaiso27001.es/fase-6-implementando-un-sgsi/',
     },
   ],
   creditos: [
@@ -135,15 +240,9 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Claudia Patricia Aristizabal',
-          cargo: 'Responsable del Ecosistema',
+          nombre: 'Maria Camila Garcia Santamaria',
+          cargo: 'Líder del equipo',
           centro: 'Dirección General',
-        },
-        {
-          nombre: 'Rafael Neftalí Lizcano Reyes',
-          cargo: 'Responsable de Línea de Producción',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
       ],
     },
@@ -151,8 +250,30 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Asesor metodológico y pedagógico',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Hernando José Peña Hidalgo',
+          cargo: 'Experto temático',
+          centro:
+            'Centro de Teleinformática y Producción Industrial - Regional Cauca',
+        },
+        {
+          nombre: 'Fabián Leonardo Correa Díaz',
+          cargo: 'Diseñador instruccional',
+          centro: 'Centro agropecuario La Granja - Regional Tolima',
+        },
+        {
+          nombre: 'Carolina Coca Salazar',
+          cargo: 'Revisora metodológica y pedagógica',
+          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Jhana Johanna Bustillo Ardila',
+          cargo: 'Revisión de estilo',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
@@ -162,26 +283,72 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de Contenidos Digitales',
+          nombre: 'Francisco José Lizcano Reyes',
+          cargo: 'Responsable del equipo',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Desarrollador Fullstack',
+          nombre: 'Leyson Fabian Castaño Perez',
+          cargo: 'Soporte organizacional',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+        {
+          nombre: 'Luis Fernando Sarmiento Betancourth',
+          cargo: 'Diseño web',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
+          nombre: 'Gilberto Junior Rodríguez Rodríguez',
+          cargo: 'Producción audiovisual',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Actividad Didáctica',
+          nombre: 'Lina Marcela Pérez Manchego',
+          cargo: 'Producción audiovisual',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Ludwyng Corzo García',
+          cargo: 'Producción audiovisual',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'María Carolina Tamayo López',
+          cargo: 'Producción audiovisual',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Wilson Andrés Arenales Cáceres',
+          cargo: 'Producción audiovisual',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Zuleidy Maria Ruiz Torres',
+          cargo: 'Producción audiovisual',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+        {
+          nombre: 'Lizeth Karina Manchego Suárez',
+          cargo: 'Desarrollo front-end',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Andrés Mauricio Santaella Ochoa',
+          cargo: 'Soporte front-end',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Yuli Marcela Gómez Tarazona',
+          cargo: 'Validación de diseño y contenido',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
@@ -191,22 +358,9 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Zuleidy María Ruiz Torres',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-        },
-        {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-        },
-        {
-          nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          nombre: 'Milady Tatiana Villamil Castellanos',
+          cargo: 'Validación y vinculación en plataforma LMS',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],
     },
