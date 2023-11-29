@@ -17,10 +17,10 @@
     .row.mt-5(data-aos="fade-left")
       .col-10.col-lg-8.offset-1.offset-lg-2
         .cajon.color-secundario.bg-naranja-claro.p-4
-          p En una organización se deben gestionar, entre otros tantos, los activos de información de manera segura y responsable; por ello la norma recomienda que se cuente con políticas claras que apoyen el ejercicio de identificación y aseguramiento de dichos activos de la información. 
+          p En una organización se deben gestionar, entre otros tantos, los activos de información de manera segura y responsable; por ello, la norma recomienda que se cuente con políticas claras que apoyen el ejercicio de identificación y aseguramiento de dichos activos de la información. 
     p.mt-5(data-aos="fade-right") En la siguiente tabla, conozca los objetivos de control para la determinación de estas políticas. Le sugerimos tomar nota atenta de los aspectos más importantes de este punto.
-    .row.mt-5
-      .col-10.offset-1(data-aos="fade-left")
+    .row.justify-content-center.mt-5
+      .col-lg-10(data-aos="fade-left")
         .titulo-sexto.color-acento-contenido.mb-0
           p.mb-0 #[b Tabla 1]. A5 Política para la seguridad de la información 
         .tabla-b.color-acento-contenido.mt-5
@@ -34,7 +34,7 @@
               td.bg-blanco Política para la seguridad de la información.
             tr
               th.text-center.border-rojo.bg-gris-claro A.5.1.2
-              td.bg-blanco Revisión de las políticas para la seguridad de la información
+              td.bg-blanco Revisión de las políticas para la seguridad de la información.
     Separador
     .titulo-segundo.mt-5
       #t_2_1.h2 2.1 Objetivos de control para la seguridad de la información
@@ -86,13 +86,13 @@
                 li 
                   i.fas.fa-angle-right
                   | Teletrabajo.
-      .col-4.col-lg-5(data-aos="fade-right")
+      .col-4.col-lg-5.d-none.d-lg-block(data-aos="fade-right")
         figure
           img(src="@/assets/template/tema-2-4.png", alt="Texto que describa la imagen")
     Separador
     .titulo-segundo.mt-5
       #t_2_2.h2 2.2 Objetivos de control para el factor humano 
-    .row.mt-5(data-aos="fade-right")
+    .row.my-5(data-aos="fade-right")
       .col-2
         figure
           img(src="@/assets/template/tema-2-5.svg", alt="Texto que describa la imagen").floating
@@ -114,8 +114,8 @@
     figure.mt-5(data-aos="fade-right")
       img(src="@/assets/template/tema-2-11.png", alt="Texto que describa la imagen")  
     p.mt-5(data-aos="fade-right") Estudie la siguiente tabla, y conozca los objetivos de control que establecen los controles necesarios para gestionar estos activos.
-    .row.mt-5
-      .col-10.offset-1(data-aos="fade-left")
+    .row.justify-content-center.mt-5
+      .col-lg-10(data-aos="fade-left")
         .titulo-sexto.color-acento-contenido.mb-0
           p.mb-0 #[b Tabla 2]. A8 Gestión de activos
         .tabla-b.color-acento-contenido.mt-5
@@ -126,40 +126,40 @@
               td.bg-gris-claro Responsabilidad por los activos: identificar los activos organizacionales y definir las responsabilidades de protección apropiadas.
             tr.border-rojo.bg-blanco
               th.text-center.border-rojo A.8.1.1
-              td Inventario de activos
+              td Inventario de activos.
             tr.border-rojo.bg-blanco
               th.text-center.border-rojo.bg-blanco A.8.1.2
-              td.bg-blanco Propiedad de los activos
+              td.bg-blanco Propiedad de los activos.
             tr.border-rojo.bg-blanco
               th.text-center.border-rojo.bg-blanco A.8.1.3
-              td.bg-blanco Uso aceptable de los activos
+              td.bg-blanco Uso aceptable de los activos.
             tr.border-rojo.bg-blanco
               th.text-center.border-rojo.bg-blanco A.8.1.4
-              td.bg-blanco Devolución de activos
+              td.bg-blanco Devolución de activos.
             tr.border-rojo
               th.text-center.border-rojo.bg-gris-claro A.8.2
               td.bg-gris-claro Clasificación de la información: asegurar que la información recibe un nivel adecuado de protección, de acuerdo con su importancia para la organización.
             tr.border-rojo.bg-blanco
               th.text-center.border-rojo.bg-blanco A.8.2.1
-              td.bg-blanco Clasificación de la información
+              td.bg-blanco Clasificación de la información.
             tr.border-rojo.bg-blanco
               th.text-center.border-rojo.bg-blanco A.8.2.2
-              td.bg-blanco Etiquetado de la información
+              td.bg-blanco Etiquetado de la información.
             tr.border-rojo.bg-blanco
               th.text-center.border-rojo.bg-blanco A.8.2.3
-              td.bg-blanco Manejo de activos
+              td.bg-blanco Manejo de activos.
             tr.border-rojo
               th.text-center.border-rojo.bg-gris-claro A.8.3
               td.bg-gris-claro Manejo de medios: evitar la divulgación, la modificación, el retiro o la destrucción no autorizados de información almacenada en los medios.
             tr.border-rojo.bg-blanco 
               th.text-center.border-rojo.bg-blanco A.8.3.1
-              td.bg-blanco Gestión de medios removibles
+              td.bg-blanco Gestión de medios removibles.
             tr.border-rojo.bg-blanco
               th.text-center.border-rojo.bg-blanco A.8.3.2
-              td.bg-blanco Disposición de los medios
+              td.bg-blanco Disposición de los medios.
             tr.border-rojo.bg-blanco
               th.text-center.border-rojo.bg-blanco A.8.3.3
-              td.bg-blanco Transferencia de medios físicos
+              td.bg-blanco Transferencia de medios físicos.
     Separador
     .titulo-segundo.mt-5
       #t_2_4.h2 2.4 Controles de accesos
@@ -198,10 +198,10 @@
                 td.bg-gris-claro Controles criptográficos: asegurar el uso apropiado y eficaz de la criptografía para proteger la confidencialidad, autenticidad y/o la integridad de la información.
               tr.border-rojo.bg-blanco
                 th.text-center.border-rojo A.10.1.1
-                td Política sobre el uso de controles criptográficos
+                td Política sobre el uso de controles criptográficos.
               tr.border-rojo.bg-blanco
                 th.text-center.border-rojo.bg-blanco A.10.1.2
-                td.bg-blanco Gestión de llaves
+                td.bg-blanco Gestión de llaves.
       .col-4.col-lg-5(data-aos="fade-left")
         figure
           img(src="@/assets/template/tema-2-18.svg", alt="Texto que describa la imagen").floating
@@ -219,7 +219,6 @@
       .py-4.py-md-5(titulo="Áreas seguras" :icono="require('@/assets/template/tema-2-20.svg')")
         .row          
           .col-12.col-lg-8.pl-5.align-self-center
-            .h3 Áreas seguras
             p Prevenir el acceso físico no autorizado, el daño y la interferencia a la información y a las instalaciones de procesamiento de información.
             ul.lista-ul.mt-3
               li 
@@ -246,7 +245,6 @@
       .py-4.py-md-5(titulo="Equipos" :icono="require('@/assets/template/tema-2-21.svg')")
         .row
           .col-12.col-lg-8.pl-5.align-self-center
-            .h3 Equipos
             p Prevenir la pérdida, daño, robo o compromiso de activos, y la interrupción de las operaciones de la organización.
             ul.lista-ul.mt-3
               li 
@@ -308,19 +306,19 @@ export default {
       {
         titulo: 'Antes de asumir el empleo',
         texto:
-          'Asegurar que los empleados y contratistas comprenden sus responsabilidades y son idóneos para los roles para los que se los consideran.<br><br> Proceso de selección <br> Términos y condiciones del empleo',
+          'Asegurar que los empleados y contratistas comprenden sus responsabilidades y son idóneos para los roles para los que se los consideran.<br><br><ul><li>+ Proceso de selección</li><li>+ Términos y condiciones del empleo</li></ul>',
         imagen: require('@/assets/template/tema-2-7.png'),
       },
       {
         titulo: 'Durante la vigencia del empleo',
         texto:
-          'Asegurarse de que los empleados y contratistas, tomen conciencia de sus responsabilidades en seguridad de la información.<br><br> Responsabilidad de la dirección<br> Toma de conciencia, educación y formación en la seguridad de la información<br>Proceso disciplinario ',
+          'Asegurarse de que los empleados y contratistas, tomen conciencia de sus responsabilidades en seguridad de la información.<br><br><ul><li>+ Responsabilidad de la dirección</li><li>+ Toma de conciencia, educación y formación en la seguridad de la información</li><li>+ Proceso disciplinario</li></ul>',
         imagen: require('@/assets/template/tema-2-8.png'),
       },
       {
         titulo: 'Terminación o cambio de empleo',
         texto:
-          'Proteger los intereses de la organización como parte del proceso de cambio o terminación del empleo.<br><br>Responsabilidades en la terminación',
+          'Proteger los intereses de la organización como parte del proceso de cambio o terminación del empleo.<br><br><ul><li>+ Responsabilidades en la terminación</li><ul>',
         imagen: require('@/assets/template/tema-2-9.png'),
       },
     ],

@@ -30,7 +30,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Algunos conceptos y estándar orientador',
+            titulo: 'Algunos conceptos y estándares orientadores',
             hash: 't_1_1',
           },
           {
@@ -147,7 +147,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/material.pdf',
+        download: 'downloads/228124_CF03_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -167,7 +167,7 @@ export default {
       referencia:
         'ISO / IEC JTC 1 / SC 27 Seguridad de la información, ciberseguridad y protección de la privacidad. (2013). ISO / IEC 27001: 2013.',
       tipo: 'Norma técnica',
-      link: 'https://www.iso.org/standard/54534.html',
+      link: 'https://normaiso27001.es/',
     },
   ],
   glosario: [
@@ -217,8 +217,7 @@ export default {
     {
       referencia:
         'Instituto Nacional de Tecnologías de la Comunicación (2009). Implantación de un SGSI en la empresa. ',
-      link:
-        ' https://www.incibe.es/extfrontinteco/img/File/intecocert/sgsi/img/Guia_apoyo_SGSI.pdf',
+      link: '',
     },
     {
       referencia:
@@ -240,9 +239,15 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Maria Camila Garcia Santamaria',
-          cargo: 'Líder del equipo',
+          nombre: 'Claudia Patricia Aristizábal Gutiérrez',
+          cargo: 'Responsable del equipo',
           centro: 'Dirección General',
+        },
+        {
+          nombre: 'Liliana Victoria Morales Gualdrón',
+          cargo: 'Responsable de línea de producción',
+          centro:
+            'Regional Distrito Capital - Centro de Gestión De Mercados, Logística y Tecnologías de la Información',
         },
       ],
     },
@@ -251,31 +256,41 @@ export default {
       autores: [
         {
           nombre: 'Rafael Neftalí Lizcano Reyes',
-          cargo: 'Asesor metodológico y pedagógico',
+          cargo: 'Asesoría metodológico y pedagógico',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
-          nombre: 'Hernando José Peña Hidalgo',
+          nombre: 'Fabio Alberto Ramírez',
           cargo: 'Experto temático',
+          centro: 'Regional Tolima - Centro Comercio y Servicios',
+        },
+        {
+          nombre: 'Gloria Alexandra Orejarena Barrios',
+          cargo: 'Diseño instruccional',
+          centro: 'Regional Distrito Capital - Centro de Gestión Industrial',
+        },
+        {
+          nombre: 'Andrés Felipe Velandia Espitia',
+          cargo: 'Asesoría metodológica y pedagógica',
+          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
+        },
+        {
+          nombre: 'Darío González',
+          cargo: 'Corrección de estilo',
+          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
+        },
+        {
+          nombre: 'Gloria Amparo López Escudero',
+          cargo: 'Adecuación instruccional - 2023',
           centro:
-            'Centro de Teleinformática y Producción Industrial - Regional Cauca',
+            'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
         },
         {
-          nombre: 'Fabián Leonardo Correa Díaz',
-          cargo: 'Diseñador instruccional',
-          centro: 'Centro agropecuario La Granja - Regional Tolima',
-        },
-        {
-          nombre: 'Carolina Coca Salazar',
-          cargo: 'Revisora metodológica y pedagógica',
-          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
-        },
-        {
-          nombre: 'Jhana Johanna Bustillo Ardila',
-          cargo: 'Revisión de estilo',
+          nombre: 'Alix Cecilia Chinchilla Rueda',
+          cargo: 'Asesoría metodológica y pedagógica',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
         },
       ],
     },
@@ -286,7 +301,7 @@ export default {
           nombre: 'Francisco José Lizcano Reyes',
           cargo: 'Responsable del equipo',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
           nombre: 'Leyson Fabian Castaño Perez',
@@ -294,63 +309,76 @@ export default {
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Luis Fernando Sarmiento Betancourth',
+          nombre: 'Fabian Zarate',
           cargo: 'Diseño web',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
-          nombre: 'Gilberto Junior Rodríguez Rodríguez',
+          nombre: 'Zuleidy María Ruíz Torres',
           cargo: 'Producción audiovisual',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
-          nombre: 'Lina Marcela Pérez Manchego',
-          cargo: 'Producción audiovisual',
+          nombre: 'Sergio Mauricio Valencia Martínez',
+          cargo: 'Desarrollo front-end',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-        },
-        {
-          nombre: 'Ludwyng Corzo García',
-          cargo: 'Producción audiovisual',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-        },
-        {
-          nombre: 'María Carolina Tamayo López',
-          cargo: 'Producción audiovisual',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
           nombre: 'Wilson Andrés Arenales Cáceres',
           cargo: 'Producción audiovisual',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
-          nombre: 'Zuleidy Maria Ruiz Torres',
+          nombre: 'Gilberto Junior Rodríguez Rodríguez',
           cargo: 'Producción audiovisual',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
-          nombre: 'Lizeth Karina Manchego Suárez',
-          cargo: 'Desarrollo front-end',
+          nombre: 'María Carolina Tamayo López',
+          cargo: 'Locución',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
-          nombre: 'Andrés Mauricio Santaella Ochoa',
-          cargo: 'Soporte front-end',
+          nombre: 'Estefani Daniela Gallo Cortés',
+          cargo: 'Ilustración',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        },
+        {
+          nombre: 'Miguel Guerrero Gutiérrez',
+          cargo: 'Producción audiovisual',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        },
+        {
+          nombre: 'Pedro Nel Calao Zabala',
+          cargo: 'Producción audiovisual',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
           nombre: 'Yuli Marcela Gómez Tarazona',
           cargo: 'Validación de diseño y contenido',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        },
+        {
+          nombre: 'Yuly Andrea Rey Quiñonez',
+          cargo: 'Diseño web - 2023',
+          centro:
+            'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
+        },
+        {
+          nombre: 'Diego Fernando Velasco Guiza',
+          cargo: 'Desarrollo fullstack - 2023',
+          centro:
+            'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
         },
       ],
     },
@@ -358,9 +386,23 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Milady Tatiana Villamil Castellanos',
-          cargo: 'Validación y vinculación en plataforma LMS',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+          nombre: 'Carolina Coca Salazar',
+          cargo: 'Evaluación de contenidos inclusivos y accesibles',
+          centro:
+            'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
+        },
+        {
+          nombre: 'Lina Marcela Pérez Manchego',
+          cargo: 'Validación de recursos educativos digitales',
+          centro:
+            'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
+        },
+        {
+          nombre: 'Leyson Fabián Castaño Pérez',
+          cargo:
+            'Validación de recursos educativos digitales y vinculación LMS',
+          centro:
+            'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
         },
       ],
     },

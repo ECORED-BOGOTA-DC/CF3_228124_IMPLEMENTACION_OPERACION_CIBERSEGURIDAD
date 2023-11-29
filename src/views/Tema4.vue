@@ -52,6 +52,7 @@
                 img(src="@/assets/template/tema-4-7.svg", alt="Texto que describa la imagen").w-75.margin-0-auto
             .col-10.mt-3
               p Las métricas son instrumentos que permiten verificar el nivel de cumplimiento de un control de seguridad de acuerdo a lo esperado y propuesto en la estrategia de seguridad.
+    Separador
     .titulo-segundo.mt-5
       #t_4_1.h2 4.1 La planificación y los objetivos
     .row.mt-5
@@ -64,36 +65,43 @@
             p La planificación de la estrategia de seguridad se debe realizar mediante la construcción de los objetivos de seguridad, estos se deben proponer a partir del análisis de riesgos, realizado a los activos de información y establecer las acciones que se deben adelantar para tratar los riesgos de seguridad. Con los objetivos se busca garantizar los pilares de la información.
         p.mt-5(data-aos="fade-right") Para el establecimiento de los objetivos de seguridad es importante tener presente aspectos como:
         ul.lista-ul--separador.mt-4(data-aos="fade-right")
-          li 
+          li.d-flex
             i.fas.fa-angle-right
-            | Los recursos que se necesitan para realizar la implementación.
-          li 
+            | 
+            p Los recursos que se necesitan para realizar la implementación.
+          li.d-flex
             i.fas.fa-angle-right
-            | La persona, área o dependencia responsable del cumplimiento del objetivo.
-          li 
+            | 
+            p La persona, área o dependencia responsable del cumplimiento del objetivo.
+          li.d-flex
             i.fas.fa-angle-right
-            | El método de evaluación, con el fin de identificar si el objetivo se está cumpliendo.
-          li 
+            | 
+            p El método de evaluación, con el fin de identificar si el objetivo se está cumpliendo.
+          li.d-flex
             i.fas.fa-angle-right
+            |
             p Además, debe tener presente que todo el ejercicio de la construcción y ejecución del objetivo de control debe estar documentado, así como:    
         ul.lista-ul.pl-5(data-aos="fade-right")
-          li 
+          li.d-flex
             i.lista-ul__vineta
-            | Definir cada objetivo y su finalidad.
-          li 
+            | 
+            p Definir cada objetivo y su finalidad.
+          li.d-flex
             i.lista-ul__vineta
-            | Las evaluaciones y seguimiento a la ejecución y verificación del control verificando que este se cumpla.
+            | 
+            p Las evaluaciones y seguimiento a la ejecución y verificación del control verificando que este se cumpla.
       .col-4.col-lg-5(data-aos="fade-left")
         figure
           img(src="@/assets/template/tema-4-9.png", alt="Texto que describa la imagen")
+    Separador
     .titulo-segundo.mt-5
       #t_4_2.h2 4.2  Características de validación
-    .row.mt-5(data-aos="fade-right")
+    .row.align-items-center.mt-5(data-aos="fade-right")
       .col-2
         figure
           img(src="@/assets/template/tema-4-10.svg", alt="Texto que describa la imagen").floating
       .col-10
-        p La planificación de la estrategia de seguridad se debe realizar mediante la construcción de los objetivos de seguridad, estos se deben proponer a partir del análisis de riesgos, realizado a los activos de información y establecer las acciones que se deben adelantar para tratar los riesgos de seguridad. Con los objetivos se busca garantizar los pilares de la información.
+        p.mb-0 De acuerdo a las características de la estrategia de seguridad y controles de información que se vayan a implementar en la organización, se deben establecer los objetivos de seguridad, los cuales deben contar con características que permitan validar si fueron, o no, cumplidos.
     figure.mt-5(data-aos="fade-down")
       img(src="@/assets/template/tema-4-11.png", alt="Texto que describa la imagen")
     p.mt-5(data-aos="fade-right") En consecuencia, con la norma ISO/IEC 27001:2013 en su numeral 6.2, los objetivos de seguridad deben presentar las siguientes características:
@@ -127,7 +135,7 @@
               figure
                 img(src="@/assets/template/tema-4-13.svg", alt="Texto que describa la imagen").w-75.margin-0-auto
             .col-10.mt-3
-              p En el momento de realizar la planificación para garantizar el alcance de los objetivos propuestos, en relaciona con la seguridad de la información, se debe tener presente:
+              p En el momento de realizar la planificación para garantizar el alcance de los objetivos propuestos, en relación con la seguridad de la información, se debe tener presente:
               ul.lista-ul.mt-5
                 li 
                   i.fas.fa-angle-right
