@@ -261,24 +261,32 @@ export default {
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
-          nombre: 'Fabio Alberto Ramírez',
+          nombre: 'Hernando José Peña Hidalgo',
           cargo: 'Experto temático',
-          centro: 'Regional Tolima - Centro Comercio y Servicios',
+          centro:
+            'Regional Cauca - Centro de Teleinformática y Producción Industrial',
         },
         {
-          nombre: 'Gloria Alexandra Orejarena Barrios',
+          nombre: 'Fabián Leonardo Correa Díaz',
           cargo: 'Diseño instruccional',
-          centro: 'Regional Distrito Capital - Centro de Gestión Industrial',
+          centro: 'Regional Tolima - Centro agropecuario La Granja',
         },
         {
-          nombre: 'Andrés Felipe Velandia Espitia',
+          nombre: 'Carolina Coca Salazar',
           cargo: 'Asesoría metodológica y pedagógica',
           centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
         },
         {
-          nombre: 'Darío González',
-          cargo: 'Corrección de estilo',
-          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
+          nombre: 'Johanna Bustillo Ardila',
+          cargo: 'Revisión de estilo',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        },
+        {
+          nombre: 'Nelly Parra Guarín',
+          cargo: 'Adecuación instruccional - 2023',
+          centro:
+            'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
         },
         {
           nombre: 'Gloria Amparo López Escudero',
@@ -288,7 +296,7 @@ export default {
         },
         {
           nombre: 'Alix Cecilia Chinchilla Rueda',
-          cargo: 'Asesoría metodológica y pedagógica',
+          cargo: 'Metodología para la formación virtual - 2023',
           centro:
             'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
         },
@@ -306,29 +314,11 @@ export default {
         {
           nombre: 'Leyson Fabian Castaño Perez',
           cargo: 'Soporte organizacional',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
-          nombre: 'Fabian Zarate',
+          nombre: 'Luis Fernando Sarmiento Betancourth',
           cargo: 'Diseño web',
-          centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
-        },
-        {
-          nombre: 'Zuleidy María Ruíz Torres',
-          cargo: 'Producción audiovisual',
-          centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
-        },
-        {
-          nombre: 'Sergio Mauricio Valencia Martínez',
-          cargo: 'Desarrollo front-end',
-          centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
-        },
-        {
-          nombre: 'Wilson Andrés Arenales Cáceres',
-          cargo: 'Producción audiovisual',
           centro:
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
@@ -339,26 +329,43 @@ export default {
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
+          nombre: 'Lina Marcela Pérez Manchego',
+          cargo: 'Producción audiovisual',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        },
+        {
+          nombre: 'Ludwyng Corzo García',
+          cargo: 'Producción audiovisual',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        },
+        {
           nombre: 'María Carolina Tamayo López',
-          cargo: 'Locución',
-          centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
-        },
-        {
-          nombre: 'Estefani Daniela Gallo Cortés',
-          cargo: 'Ilustración',
-          centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
-        },
-        {
-          nombre: 'Miguel Guerrero Gutiérrez',
           cargo: 'Producción audiovisual',
           centro:
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
-          nombre: 'Pedro Nel Calao Zabala',
+          nombre: 'Wilson Andrés Arenales Cáceres',
           cargo: 'Producción audiovisual',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        },
+        {
+          nombre: 'Zuleidy Maria Ruiz Torres',
+          cargo: 'Producción audiovisual',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+        },
+        {
+          nombre: 'Lizeth Karina Manchego Suárez',
+          cargo: 'Desarrollo front-end',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        },
+        {
+          nombre: 'Andrés Mauricio Santaella Ochoa',
+          cargo: 'Soporte front-end',
           centro:
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
@@ -369,13 +376,13 @@ export default {
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
-          nombre: 'Yuly Andrea Rey Quiñonez',
-          cargo: 'Diseño web - 2023',
+          nombre: 'Manuel Felipe Echavarría Orozco',
+          cargo: 'Desarrollo fullstack - 2023',
           centro:
             'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
         },
         {
-          nombre: 'Diego Fernando Velasco Guiza',
+          nombre: 'Jhon Jairo Urueta Álvarez',
           cargo: 'Desarrollo fullstack - 2023',
           centro:
             'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
@@ -386,23 +393,46 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
+          nombre: 'Zuleidy María Ruiz Torres',
+          cargo: 'Validador de recursos educativos digitales',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        },
+        {
+          nombre: 'Luis Gabriel Urueta Alvarez',
+          cargo: 'Validador de recursos educativos digitales',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        },
+        {
+          nombre: 'Daniel Ricardo Mutis Gómez',
+          cargo: 'Evaluación de contenidos inclusivos y accesibles',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        },
+        {
           nombre: 'Carolina Coca Salazar',
           cargo: 'Evaluación de contenidos inclusivos y accesibles',
           centro:
-            'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
+            'Regional Distrito Capital - Centro de Gestión De Mercados, Logística y Tecnologías de la Información',
         },
         {
           nombre: 'Lina Marcela Pérez Manchego',
           cargo: 'Validación de recursos educativos digitales',
           centro:
-            'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
+            'Regional Distrito Capital - Centro de Gestión De Mercados, Logística y Tecnologías de la Información',
+        },
+        {
+          nombre: 'Milady Tatiana Villamil Castellanos',
+          cargo: 'Validación y vinculación en plataforma LMS',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
           nombre: 'Leyson Fabián Castaño Pérez',
           cargo:
             'Validación de recursos educativos digitales y vinculación LMS',
           centro:
-            'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
+            'Regional Distrito Capital - Centro de Gestión De Mercados, Logística y Tecnologías de la Información',
         },
       ],
     },
