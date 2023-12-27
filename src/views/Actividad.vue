@@ -10,8 +10,8 @@
             img(src="@/assets/template/arrastrar_Soltar.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Conceptualizando la Seguridad Digital: monitoreo y respuesta de incidentes
-        p.mb-4 Apropiar conceptos requeridos para comprender el diseño de estrategias de ciberseguridad según matriz de riesgos informáticos.
+          h2 Contexto, cronograma y diseño de estrategias de ciberseguridad
+        p.mb-4 Determinar elementos esenciales para el diseño de estrategias de ciberseguridad según matriz de riesgos informáticos.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0

@@ -3,7 +3,7 @@ export default {
     componenteFormativo:
       'Contexto, cronograma y diseño de estrategias de ciberseguridad',
     descripcionCurso:
-      'Mediante el desarrollo del presente componente el aprendiz estará en capacidad de comprender cómo realizar la implementación de una estrategia de seguridad a partir de procesos de planificación, que le permita establecer las etapas y controles de seguridad y mejorar los niveles de seguridad de la organización.',
+      'Mediante el desarrollo del presente componente, el aprendiz estará en capacidad de comprender cómo realizar la implementación de una estrategia de seguridad a partir de procesos de planificación, que le permita establecer las etapas y controles de seguridad y mejorar los niveles de seguridad de la organización.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
   },
@@ -51,7 +51,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Objetivos de control para la seguridad de la información',
+            titulo: 'Objetivos de control para seguridad de la información',
             hash: 't_2_1',
           },
           {
@@ -147,7 +147,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/228124_CF03_DU.pdf',
+        download: 'downloads/228124_CF03_DU.zip',
       },
       {
         icono: 'fas fa-download',
@@ -163,9 +163,8 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia:
-        'ISO / IEC JTC 1 / SC 27 Seguridad de la información, ciberseguridad y protección de la privacidad. (2013). ISO / IEC 27001: 2013.',
+      tema: '3. Alcance de los controles de seguridad',
+      referencia: 'ISO 2701. (2013). ISO 27001 todo sobre la norma.',
       tipo: 'Norma técnica',
       link: 'https://normaiso27001.es/',
     },

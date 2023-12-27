@@ -83,7 +83,7 @@
             figure
               img(src="@/assets/template/tema-1-10.svg", alt="Texto que describa la imagen").w-75.margin-0-auto
           .col-12.col-lg-7.align-self-center
-            p.mt-4 Cada uno de los dominios de seguridad que presenta la norma ISO/IEC 27001:2013, descritos anteriormente, se encuentra dividido en categorías. Estas categorías se denominan #[strong objetivos de control], los cuales establecen las intenciones y metas principales, de cada control de seguridad que será implementado y operado.
+            p.mt-4 Cada uno de los dominios de seguridad que presenta la norma ISO/IEC 27001:2013, descritos anteriormente, se encuentra dividido en categorías. Estas categorías se denominan #[strong objetivos de control], los cuales establecen las intenciones y metas principales de cada control de seguridad que será implementado y operado.
       
       .py-3.py-md-4(titulo="Control")
         .row
@@ -91,7 +91,7 @@
             figure
               img(src="@/assets/template/tema-1-11.svg", alt="Texto que describa la imagen").w-75.margin-0-auto
           .col-12.col-lg-7.align-self-center
-            p.mt-4 En este ámbito, y en relación con lo explicado hasta este punto, el control o los controles, son aquellas #[strong acciones que se deben implementar] bajo un proceso o procedimiento que garantice el alcance de los objetivos o metas de seguridad que haya fijado la organización o empresa.
+            p.mt-4 En este ámbito, y en relación con lo explicado hasta este punto, el control o los controles son aquellas #[strong acciones que se deben implementar] bajo un proceso o procedimiento que garantice el alcance de los objetivos o metas de seguridad que haya fijado la organización o empresa.
     Separador
     .titulo-segundo.mt-5
       #t_1_2.h2 1.2  Objetivos de control y su estructura

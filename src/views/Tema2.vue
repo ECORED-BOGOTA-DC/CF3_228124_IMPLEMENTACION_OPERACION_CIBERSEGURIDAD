@@ -46,7 +46,7 @@
               img(src="@/assets/template/tema-2-3.svg", alt="Texto que describa la imagen").floating
           .col-9
             p En términos de seguridad, uno de los factores más relevantes en una organización o empresa, es brindar las directrices para identificar y mantener seguros los #[strong activos de información]. 
-            p.mt-4 Visualice, a continuación, los objetivos de control para la organización, de la seguridad de la información.
+            p.mt-4 Visualice, a continuación, los objetivos de control para la organización y la seguridad de la información.
         .col-12.mt-4(data-aos="fade-left")
           .cajon.color-secundario.bg-naranja-claro.p-4
             ol.lista-ol--cuadro
@@ -110,7 +110,7 @@
         figure
           img(src="@/assets/template/tema-2-10.svg", alt="Texto que describa la imagen").floating
       .col-10
-        p La gestión de activos de información cobra vital importancia dado que estos deben mantenerse identificados, clasificados y salvaguardados. 
+        p La gestión de activos de información cobra vital importancia, dado que estos deben mantenerse identificados, clasificados y salvaguardados. 
     figure.mt-5(data-aos="fade-right")
       img(src="@/assets/template/tema-2-11.png", alt="Texto que describa la imagen")  
     p.mt-5(data-aos="fade-right") Estudie la siguiente tabla, y conozca los objetivos de control que establecen los controles necesarios para gestionar estos activos.
@@ -173,7 +173,7 @@
             .col-lg-8
               .bloque-texto-a__texto.p-4(data-aos="fade-left")
                 p Otro factor importante es la restricción al acceso a los activos de información. Se trata de los controles para gestionar estos accesos, prevaleciendo siempre la confidencialidad, privacidad y disponibilidad del activo de información.
-    p.mt-5(data-aos="fade-right") Visualice el recurso que a continuación se le presenta. En él encontrará aspectos de suma importancia respecto de los controles de accesos. Recuerde tomar nota atenta de los elementos más destacados.
+    p.mt-5(data-aos="fade-right") Visualice el recurso que a continuación se le presenta. En él encontrará aspectos de suma importancia respecto de los controles de acceso. Recuerde tomar nota atenta de los elementos más destacados.
     SlyderB(:datos="datosSlyder2").mt-5(data-aos="fade-down")
     Separador
     .titulo-segundo.mt-5
@@ -223,22 +223,22 @@
             ul.lista-ul.mt-3
               li 
                 i.fas.fa-angle-right
-                | Perímetro de seguridad física
+                | Perímetro de seguridad física.
               li 
                 i.fas.fa-angle-right
-                | Controles de acceso físico
+                | Controles de acceso físico.
               li 
                 i.fas.fa-angle-right
-                | Seguridad de oficinas, recintos e instalaciones
+                | Seguridad de oficinas, recintos e instalaciones.
               li 
                 i.fas.fa-angle-right
-                | Protección contra amenazas externas y ambientales
+                | Protección contra amenazas externas y ambientales.
               li 
                 i.fas.fa-angle-right
-                | Trabajo en áreas seguras
+                | Trabajo en áreas seguras.
               li 
                 i.fas.fa-angle-right
-                | Áreas de despacho y carga
+                | Áreas de despacho y carga.
           .col-4.col-lg-4
             figure
               img(src="@/assets/template/tema-2-22.png", alt="Texto que describa la imagen").margin-0-auto
@@ -249,31 +249,31 @@
             ul.lista-ul.mt-3
               li 
                 i.fas.fa-angle-right
-                | Ubicación y protección de los equipos
+                | Ubicación y protección de los equipos.
               li 
                 i.fas.fa-angle-right
-                | Servicios de suministro
+                | Servicios de suministro.
               li 
                 i.fas.fa-angle-right
-                | Seguridad del cableado
+                | Seguridad del cableado.
               li 
                 i.fas.fa-angle-right
-                | Mantenimiento de equipos
+                | Mantenimiento de equipos.
               li 
                 i.fas.fa-angle-right
-                | Retiro de activos
+                | Retiro de activos.
               li 
                 i.fas.fa-angle-right
-                | Seguridad de los equipos fuera de las instalaciones
+                | Seguridad de los equipos fuera de las instalaciones.
               li 
                 i.fas.fa-angle-right
-                | Disposición segura o reutilización de equipos
+                | Disposición segura o reutilización de equipos.
               li 
                 i.fas.fa-angle-right
-                | Equipos de usuario desatendido
+                | Equipos de usuario desatendido.
               li 
                 i.fas.fa-angle-right
-                | Política de escritorio y pantalla limpios 
+                | Política de escritorio y pantalla limpia.
           .col-4.col-lg-4
             figure
               img(src="@/assets/template/tema-2-23.png", alt="Texto que describa la imagen").margin-0-auto
